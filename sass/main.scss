@@ -1,0 +1,30 @@
+/* Moiz's Sass Template 1.2 */
+
+/* Grids */
+@import "bootstrap/bootstrap";
+
+/* @includes */
+@import "variables";
+@import "default";
+@import "theme";
+@import "mixins";
+
+/* Plugins */
+@import "vendors/checkbox";
+@import "vendors/fileUpload";
+@import "vendors/magnific";
+@import "vendors/settings"; /* Settings for Magnific Popup */
+@import "vendors/owl";
+
+/*==================== Page wise CSS ===================*/
+/*======================================================*/
+
+
+/*==================== Plugins CSS ===================*/
+/*====================================================*/
+
+
+/*==================== Documentation =================*/
+	/* Remove this CSS, Only for Documentation */
+.segment {background: #eaeaea; padding: 20px 40px; display: table; margin-bottom: 5px;}
+/*====================================================*/

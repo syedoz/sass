@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documentation</title>
+<link href="stylesheets/main.css" rel="stylesheet">
+<link href="stylesheets/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Checkbox -->
+<h2>Checkbox</h2>
+<div class="segment">
+	<input type="checkbox" id="test1" />
+    <label for="test1">Checkbox</label>
+</div>
+<div class="segment">
+	<pre>&lt;input type=&quot;checkbox&quot; id=&quot;test1&quot;/&gt;
+&lt;label for=&quot;test1&quot;&gt;Checkbox&lt;/label&gt;
+	</pre>
+	Files : vendors/checkbox.scss
+</div>
+
+<!-- File Upload -->
+<h2>File Upload</h2>
+<div class="segment">
+	<div class="custom-file-upload">
+	    <!--<label for="file">File: </label>--> 
+	    <input type="file" id="file" name="myfiles[]" multiple />
+	</div>
+</div>
+<div class="segment">
+	<pre>&lt;div class=&quot;custom-file-upload&quot;&gt;
+&lt;input type=&quot;file&quot; id=&quot;file&quot; name=&quot;myfiles[]&quot; multiple/&gt;
+	</pre>
+	Files : fileupload.js, init in plugins.js, vendors/fileUpload.scss
+</div>
+
+<!-- Magnific -->
+<h2>Magnific Popup</h2>
+<div class="segment">
+	<a class="popup-modal" href="#test-modal">Open modal</a>
+	<div id="test-modal" class="gen-modal-popup mfp-hide col-md-6 col-center">
+		<h1>Modal dialog</h1>
+		<p>You won't be able to dismiss this by usual means (escape or
+			click button), but you can close it programatically based on
+			user choices or actions.</p>
+		<p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
+	</div>
+	
+	Files : magnific.js, init in plugins.js, vendors/magnific.scss, vendors/settings.scss
+</div>
+
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/magnific.js"></script>
+<script src="js/script.js"></script>
+<script src="js/fileupload.js"></script>
+<script src="js/plugins.js"></script>
+</body>
+</html>

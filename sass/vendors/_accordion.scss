@@ -1,0 +1,35 @@
+.accordion {
+	display: block;
+	clear: both;
+	&:after { @include ClearFix; }
+	dl{
+		margin: 0 0 30px;
+		padding: 0;
+		dt{
+			background: $baseColor;
+			color: $secondaryColor;
+			cursor: pointer;
+			font-size: 20px;
+			margin: 0 0 15px;
+			padding: 15px 20px;
+			border-radius: 8px;
+			-moz-border-radius: 8px;
+			-webkit-border-radius: 8px;
+			h2{ margin: 0; font-size: 20px; font-family: 'Museo-700'; }
+		}
+		dd{
+			display: none;
+			padding: 10px 0 20px;
+			&:first-of-type{ display:block; }
+			h3{ font-size: 20px; font-family: 'Museo-500'; margin: 0 0 5px; }
+			p{ font-size: 16px; margin: 0 0 20px; }
+			.theme-button{ background: $primaryColor; color: $white; font-size: 18px; padding: 12px 30px; }
+			.social {
+				@include socialIcons();
+				margin: 20px 0 0;
+				ul{ li{ margin: 0 0 0 15px; } }
+				p{ font-size: 18px; line-height: 24px; }
+			}
+		}
+	}
+}

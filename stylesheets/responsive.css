@@ -1,0 +1,38 @@
+/* HUG Media Query Template */
+/* SMARTPHONE POTRAIT to TABLET POTRAITS */
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  /* Typography */
+  h1 {
+    font-size: 32px; }
+
+  h2 {
+    font-size: 26px; }
+
+  h3 {
+    font-size: 22px; }
+
+  h4 {
+    font-size: 18px; }
+
+  blockquote {
+    font-size: 20px; }
+
+  p {
+    font-size: 16px; }
+
+  /* Generals */
+  .hide-mobile {
+    display: none; }
+
+  .show-mobile {
+    display: block; } }
+/* SMARTPHONES PORTRAIT */
+/* SMARTPHONES LANDESCAPE to TABLET POTRAITS */
+/* TABLETS PORTRAIT to LANDSCAPE */
+/* Between iPhone 6 & 6Plus LANDSCAPE */
+/* All smaller than TABLET POTRAIT */
+/* All smaller than TABLET LANDSCAPE */
+/* Only for TABLET LANDSCAPE */
+/* TABLET LANDSCAPE / DESKTOP */
+
+/*# sourceMappingURL=responsive.css.map */
